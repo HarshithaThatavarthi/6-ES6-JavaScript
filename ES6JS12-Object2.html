@@ -1,0 +1,23 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <p id="cartoon">....</p>
+        <script>
+            var person={
+                firstname:"tom",
+                middlename:"and",
+                lastname:"jerry",
+                age:5,
+                item:"Laptop",
+                func:function()
+                {
+                    return "First_name: "+person.firstname+
+                    "<br>Middle_name: "+person.middlename+
+                    "<br>Last_name: "+person.lastname;
+                }
+            }
+            document.getElementById("cartoon").innerHTML=person.func();
+        </script>
+    </body>
+</html>
